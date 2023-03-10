@@ -90,4 +90,4 @@ def pause():
 @app.route('/next', methods=['POST'])
 def next_song():
     data = request.get_json()
-    song = Song.query.get(data
+    song = Song.query.get(data)
